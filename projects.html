@@ -2,70 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Projects | Kushal Chaudhary Portfolio</title>
+    <title>Projects | Kushal Chaudhary</title>
 
-    <meta name="description"
-          content="Explore projects built by Kushal Chaudhary.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Projects</h1>
+    <div class="navbar">
 
-    <nav aria-label="Primary Navigation">
-    <ul style="display: flex; list-style: none; padding: 0; margin: 0; gap: 20px;">
-        <li><a href="index.html" style="text-decoration: none;">Home</a></li>
-        <li><a href="about.html" aria-current="page" style="text-decoration: none;">About</a></li>
-        <li><a href="projects.html" style="text-decoration: none;">Projects</a></li>
-        <li><a href="contact.html" style="text-decoration: none;">Contact</a></li>
-    </ul>
-</nav>
+        <h1>Projects</h1>
+
+        <nav>
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="projects.html">Projects</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+                <li>
+                    <button id="theme-toggle">🌙</button>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
 </header>
 
 <main>
 
-    <section aria-labelledby="projects-heading">
+<h2>Featured Projects</h2>
 
-        <h2 id="projects-heading">
-            Featured Projects
-        </h2>
+<div class="projects-grid">
 
-        <article>
-            <h3>EV Charging Station Locator- Plug Link</h3>
+    <div class="project-card">
 
-            <p>
-                    Responsive online shopping application
-                    developed using React and Spring Boot.
-            </p>
+        <h3>Plug Link</h3>
 
-           
-        </article>
+        <p>
+            EV Charging Station Locator and Management System
+            designed to help users find charging stations and
+            optimize EV charging accessibility.
+        </p>
 
-        <article>
-            <h3>Portfolio Website</h3>
+    </div>
 
-            <p>
-                Fully accessible personal portfolio.
-            </p>
+    <div class="project-card">
 
-            
-        </article>
-        <article>
-            <h3>NoteCraft</h3>
+        <h3>NoteCraft</h3>
 
-            <p>
-                Note-taking app with rich text editing and
-                cloud sync.
-            </p>
+        <p>
+            Cloud-enabled note-taking application with modern UI,
+            note organization, and secure user authentication.
+        </p>
 
-            
-        </article>
+    </div>
 
-    </section>
+    <div class="project-card">
+
+        <h3>Portfolio Website</h3>
+
+        <p>
+            Responsive portfolio website developed using
+            semantic HTML5, CSS3, accessibility standards,
+            and responsive design principles.
+        </p>
+
+    </div>
+
+</div>
 
 </main>
 
@@ -73,5 +86,8 @@
     <p>&copy; 2026 Kushal Chaudhary</p>
 </footer>
 
+<script src="js/theme.js"></script>
+
 </body>
 </html>
+

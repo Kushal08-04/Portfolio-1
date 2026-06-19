@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Kushal Chaudhary | Full Stack Developer Portfolio</title>
+    <title>Kushal Chaudhary | Portfolio</title>
 
     <meta name="description"
-          content="Official portfolio of Kushal Chaudhary, Full Stack Developer specializing in HTML, CSS, JavaScript, React, Java, and Spring Boot.">
-
-    <meta name="keywords"
-          content="Portfolio, Full Stack Developer, Web Developer, Java Developer, React Developer">
-
-    <meta name="author" content="Kushal Chaudhary">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Kushal Chaudhary Portfolio">
-    <meta property="og:description" content="Full Stack Developer Portfolio">
-    <meta property="og:type" content="website">
-
-    <!-- Accessibility -->
-    <meta name="theme-color" content="#ffffff">
+          content="Portfolio of Kushal Chaudhary - Cloud Computing & Full Stack Developer">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header role="banner">
-        <h1>Kushal Chaudhary Portfolio</h1>
+<header>
+    <div class="navbar">
+
+        <h1>Kushal Portfolio</h1>
 
         <nav aria-label="Primary Navigation">
-    <ul style="display: flex; list-style: none; padding: 0; margin: 0; gap: 20px;">
-        <li><a href="index.html" style="text-decoration: none;">Home</a></li>
-        <li><a href="about.html" aria-current="page" style="text-decoration: none;">About</a></li>
-        <li><a href="projects.html" style="text-decoration: none;">Projects</a></li>
-        <li><a href="contact.html" style="text-decoration: none;">Contact</a></li>
-    </ul>
-</nav>
-    </header>
+            <ul class="nav-links">
 
-    <!-- Main Content -->
-    <main id="main-content">
+                <li><a href="index.html">Home</a></li>
 
-        <!-- Hero Section -->
-        <section aria-labelledby="hero-heading">
-            <h2 id="hero-heading">
-                Full Stack Developer
-            </h2>
+                <li><a href="about.html">About</a></li>
 
-            <p>
-                Building accessible, scalable, and modern web applications.
-            </p>
+                <li><a href="projects.html">Projects</a></li>
 
-            <a href="projects.html">
-                View My Projects
-            </a>
-        </section>
+                <li><a href="contact.html">Contact</a></li>
 
-        <!-- Skills Section -->
-        <section aria-labelledby="skills-heading">
-            <h2 id="skills-heading">Skills</h2>
+                <li>
+                    <button id="theme-toggle">🌙</button>
+                </li>
 
-            <article>
-                <h3>Cloud Computing</h3>
-                <p>
-                    AWS, IBM Cloud Platform
-                </p>
-            </article>
+            </ul>
+        </nav>
 
-            <article>
-                <h3>Frontend Development</h3>
-                <p>
-                    HTML5, CSS3, JavaScript, React
-                </p>
-            </article>
+    </div>
+</header>
 
-            <article>
-                <h3>Backend Development</h3>
-                <p>
-                    Java, Spring Boot, Node.js
-                </p>
-            </article>
+<main>
 
-            <article>
-                <h3>Database</h3>
-                <p>
-                    MySQL, MongoDB
-                </p>
-            </article>
-        </section>
+<section class="hero">
 
-    </main>
+    <div class="hero-content">
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Kushal Chaudhary.</p>
-    </footer>
+        <h2>Cloud Computing & Full Stack Developer</h2>
+
+        <p>
+            Passionate about building scalable cloud solutions,
+            modern web applications, and efficient software systems.
+        </p>
+
+        <a href="projects.html" class="btn">
+            View My Projects
+        </a>
+
+    </div>
+
+</section>
+
+<section class="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <h3>Cloud Computing</h3>
+            <p>AWS, IBM Cloud Platform</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <p>HTML5, CSS3, JavaScript, React</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Backend Development</h3>
+            <p>Java, Spring Boot, Node.js</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Database</h3>
+            <p>MySQL, MongoDB</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Data Structures & Algorithms</h3>
+            <p>Problem Solving & Competitive Programming</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>System Design</h3>
+            <p>REST APIs, Scalable Architectures</p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Kushal Chaudhary</p>
+</footer>
+
+<script src="js/theme.js"></script>
 
 </body>
 </html>
+

@@ -1,62 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Contact | John Doe Portfolio</title>
+    <title>Contact | Kushal Chaudhary</title>
 
-    <meta name="description"
-          content="Contact John Doe for web development projects.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Contact Me</h1>
+    <div class="navbar">
 
-    <nav aria-label="Primary Navigation">
-    <ul style="display: flex; list-style: none; padding: 0; margin: 0; gap: 20px;">
-        <li><a href="index.html" style="text-decoration: none;">Home</a></li>
-        <li><a href="about.html" aria-current="page" style="text-decoration: none;">About</a></li>
-        <li><a href="projects.html" style="text-decoration: none;">Projects</a></li>
-        <li><a href="contact.html" style="text-decoration: none;">Contact</a></li>
-    </ul>
-</nav>
+        <h1>Contact Me</h1>
+
+        <nav>
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="projects.html">Projects</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+                <li>
+                    <button id="theme-toggle">🌙</button>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
 </header>
 
 <main>
 
-<section aria-labelledby="contact-heading">
+<section>
 
-<h2 id="contact-heading">
-    Contact Details
-</h2>
+<div class="contact-card">
 
-<h4>
-    Full Name - Kushal Chaudhary
-</h4>
-<h4>
-    Email Address - kushalchaudhary0804@gmail.com
-</h4>
-<nav aria-label="Social Media Links">
-            <ul>
-                <li>
-                    <a href="https://github.com/Kushal08-04">
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/kushalchaudhary0804">
-                        LinkedIn
-                    </a>
-                </li>
-            </ul>
-</nav>
+    <h2>Contact Details</h2>
 
-      
+    <div class="contact-item">
+        <strong>Full Name</strong>
+        <p>Kushal Chaudhary</p>
+    </div>
+
+    <div class="contact-item">
+        <strong>Email Address</strong>
+        <p>kushalchaudhary0804@gmail.com</p>
+    </div>
+
+    <div class="contact-item">
+        <strong>GitHub</strong>
+
+        <p>
+            <a href="https://github.com/Kushal08-04"
+               target="_blank">
+                github.com/Kushal08-04
+            </a>
+        </p>
+    </div>
+
+    <div class="contact-item">
+        <strong>LinkedIn</strong>
+
+        <p>
+            <a href="https://www.linkedin.com/in/kushalchaudhary0804"
+               target="_blank">
+                linkedin.com/in/kushalchaudhary0804
+            </a>
+        </p>
+    </div>
+
+</div>
+
 </section>
 
 </main>
@@ -64,6 +88,8 @@
 <footer>
     <p>&copy; 2026 Kushal Chaudhary</p>
 </footer>
+
+<script src="js/theme.js"></script>
 
 </body>
 </html>
